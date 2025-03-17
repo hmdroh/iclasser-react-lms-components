@@ -1,6 +1,6 @@
 {
   "name": "@iclasser-react/lottie-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Contains iClasser component.",
   "private": true,
   "author": {
@@ -16,7 +16,8 @@
     "test:ci": "jest --ci",
     "clean": "rm -rf .next && rm -rf node_modules && rm -rf package/dist-preview/node_modules && rm -rf package/dist-preview/dist",
     "setup": "npm install && npm run build",
-    "preview-pre-publish": "node ./script/preview-pre-publish.js"
+    "preview-pre-publish": "node ./script/preview-pre-publish.js",
+    "publish:npm": "cd package/dist-preview && npm publish --access public"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.1.5",

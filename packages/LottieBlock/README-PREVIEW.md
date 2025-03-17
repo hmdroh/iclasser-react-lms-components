@@ -13,7 +13,7 @@ import react from 'react';
 import LottieBlock from '@iclasser-react/lottie-block'
 const structureComponent = {
     props: {
-      url: "",
+      url: "", // lottie block json url
       loop: false,
     },
   }
